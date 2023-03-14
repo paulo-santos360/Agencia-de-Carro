@@ -7,9 +7,31 @@
     text-decoration: none;
 
 }
-
+/*Paleta de Cores*/
 :root{
-    --prima-color:var(--prima-color);
-    --text-color:;
-    --color: ;
+    --prima-color:var(#dd6031);
+    --text-color:var(#ff312e);
+    --color: var(#1a181b) ;
+    --segundary: var(#dd6031);
+    --terceary-color: var(#006494);
+}
+
+/*header*/
+
+.menu{
+    max-width: 1068px;
+    margin: 0 auto;
+}
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav{
+    
 }
