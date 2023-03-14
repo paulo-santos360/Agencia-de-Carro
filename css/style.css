@@ -30,7 +30,7 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #dd6031;
+    background-color: #ff312e;
 }
 
 .navbar{
@@ -75,7 +75,13 @@ header{
 #search{
     font-size: 20px;
     cursor: pointer;
+    color: #1a181b;
 }
+#search:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
 .search-topo{
     background-color: #fff;
     position: absolute;
@@ -102,4 +108,47 @@ header{
     color: black;
 }
 
+/*Seção principal*/
+section{
+    padding: 80px 0 20px;
+}
 
+.home{
+    max-width: 1300px;
+    width: 80%;
+    min-height: 640px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/carro-principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+.home-text{
+    position: relative;
+    top: -143px;
+    right: 0;
+    left: 53px;
+}
+
+.home-text h1{
+    color: #ff312e;
+    font-size: 44px;
+    padding-top: 30px;
+}
+
+.home-text span{
+    font-size: 30px;
+}
+
+.home-text p{
+    color: #ff312e;
+    font-size: 21px;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+.home-text .veiculo{
+    color: black;
+    font-size: 21px;
+}
