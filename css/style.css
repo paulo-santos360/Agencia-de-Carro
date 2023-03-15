@@ -122,8 +122,8 @@ section{
     align-items: center;
     background-image: url("../img/carro-principal.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
+/*     background-size: 300px; */
+    background-position: center right;
 }
 .home-text{
     position: relative;
@@ -147,8 +147,23 @@ section{
     font-size: 21px;
     padding: 10px 0px;
     font-weight: bolder;
+    margin-bottom: 30px;
 }
 .home-text .veiculo{
     color: black;
     font-size: 21px;
+}
+
+.btn{
+    background-color: #ff312e;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: #fff;
 }
