@@ -252,3 +252,51 @@ section{
     font-size: 16px;
 }
  
+/*Auto Peças*/
+
+.parts-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.parts-container .card{
+    flex: 1 1 17rem;
+    position: relative;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    border-radius: 0.5rem;
+}
+
+.parts-container .card img{
+    width: 100%;
+    height: 53px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+
+.parts-container .card h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.parts-container .card span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ff312e;
+}
+
+.parts-container .card .bx{
+    color: #ff312e;
+    margin: 0.8rem 0;
+}
+
+.parts-container .card .btn{
+    max-width: 200px;
+}
+
+
