@@ -170,15 +170,19 @@ section{
 
 .racing{
     text-align: center;
+    margin-top: -103px;
 }
 
 .racing span{
-    font-weight: 500px;
+    font-size: 29px;
+    font-weight: bolder;
+    text-transform: uppercase;
     color: #ff312e;
 }
 
-.racing p{
-    font-size: 10px;
+.racing h2{
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
 /*cards*/
@@ -237,10 +241,13 @@ section{
 
 .sobre-text{
     flex: 1 1 21rem;
+    text-align: center;
 }
 
 .sobre-text span{
-    font-weight: 500;
+    font-size: 31px;
+    font-weight: bolder;
+    text-transform: uppercase;
     color: #ff312e;
 }
 
@@ -269,11 +276,12 @@ section{
     flex-direction: column;
     background-color: #f6f6f6;
     border-radius: 0.5rem;
+    height: 380px;
 }
 
 .parts-container .card img{
     width: 100%;
-    height: 53px;
+    height: 100%;
     object-fit: contain;
     object-position: center;
     margin-bottom: 1rem;
