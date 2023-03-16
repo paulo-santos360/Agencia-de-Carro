@@ -30,7 +30,7 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #ff312e;
+    background-color: blue;
 }
 
 .navbar{
@@ -116,20 +116,21 @@ section{
 .home{
     max-width: 1300px;
     width: 80%;
-    min-height: 640px;
+    min-height: 600px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-image: url("../img/carro-principal.jpg");
+    background-image: url("../img/slider-top1.jpg");
     background-repeat: no-repeat;
 /*     background-size: 300px; */
-    background-position: center right;
+    background-position: center left;
+    margin-top: 73px;
 }
 .home-text{
     position: relative;
     top: -143px;
     right: 0;
-    left: 53px;
+    left: 205px;
 }
 
 .home-text h1{
@@ -170,7 +171,7 @@ section{
 
 .racing{
     text-align: center;
-    margin-top: -103px;
+    margin-top: -61px;
 }
 
 .racing span{
@@ -191,6 +192,7 @@ section{
     flex-wrap: wrap;
     gap: 32px;
     margin-top: 2rem;
+    height: 503px;
 }
 
 .card{
@@ -237,35 +239,40 @@ section{
 
 .sobre-img{
     flex: 1 1 21rem;
+    position: relative;
+    top: -62px;
 }
 
 .sobre-text{
     flex: 1 1 21rem;
     text-align: center;
+    position: relative;
+    top: -133px;
 }
 
 .sobre-text span{
-    font-size: 31px;
+    font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
     color: #ff312e;
 }
 
 .sobre-text h2{
-    font-size: 1.7rem;
+    font-size: 37px;
 }
 
 .sobre-text p{
-    font-size: 16px;
+    margin-bottom: 20px;
 }
- 
+
+
 /*Auto Peças*/
 
 .parts-container{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: -104px;
 }
 
 .parts-container .card{
@@ -277,6 +284,7 @@ section{
     background-color: #f6f6f6;
     border-radius: 0.5rem;
     height: 380px;
+    margin-top: -29px;
 }
 
 .parts-container .card img{
@@ -284,12 +292,12 @@ section{
     height: 100%;
     object-fit: contain;
     object-position: center;
-    margin-bottom: 1rem;
 }
 
 .parts-container .card h3{
     font-size: 1.1rem;
     font-weight: 600;
+    margin-top: -35px;
 }
 
 .parts-container .card span{
@@ -305,6 +313,35 @@ section{
 
 .parts-container .card .btn{
     max-width: 200px;
+    margin-top: 10px;
+}
+
+.blog-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.blog-container .card{
+    flex: 1 1 13rem;
+    padding: 20px;
+}
+
+.blog-container .card:hover{
+    background-color: #fff;
+}
+
+.blog-container .card span{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.blog-container h3{
+    font-size: 1.2rem;
 }
 
 
+.blog-container .card p{
+    font-size: 0.983rem;
+}
