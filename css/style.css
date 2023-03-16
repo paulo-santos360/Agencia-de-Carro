@@ -20,8 +20,8 @@
 
 .container{
     max-width: 1068px;
-    margin: 0 auto;
-}
+      margin: 0 auto;
+ }
 
 header{
     display: block;
@@ -51,7 +51,7 @@ header{
    font-size: 20px; 
    font-weight: bolder;
    text-transform: uppercase;
-   color: #1a181b;
+   color: #fff;
 }
 
 .list-menu{
@@ -60,7 +60,7 @@ header{
 }
 
 .list-menu a{
-    color: var(--segundary);
+    color: #fff;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bolder;
@@ -75,7 +75,7 @@ header{
 #search{
     font-size: 20px;
     cursor: pointer;
-    color: #1a181b;
+    color: #fff;
 }
 #search:hover{
     color: #fff;
@@ -134,7 +134,7 @@ section{
 }
 
 .home-text h1{
-    color: #ff312e;
+    color: blue;
     font-size: 44px;
     padding-top: 30px;
 }
@@ -144,7 +144,7 @@ section{
 }
 
 .home-text p{
-    color: #ff312e;
+    color: blue;
     font-size: 21px;
     padding: 10px 0px;
     font-weight: bolder;
@@ -156,17 +156,13 @@ section{
 }
 
 .btn{
-    background-color: #ff312e;
-    color: black;
+    background-color: blue;
+    color: #fff;
     font-size: 16px;
     font-weight: bolder;
     text-transform: uppercase;
     padding: 10px;
     border-radius: 5px;
-}
-
-.btn:hover{
-    color: #fff;
 }
 
 .racing{
@@ -178,7 +174,7 @@ section{
     font-size: 29px;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #ff312e;
+    color: blue;
 }
 
 .racing h2{
@@ -226,7 +222,7 @@ section{
 }
 
 .speed-container .card:hover h2{
-    background-color: #ff312e;
+    background-color: blue;
     color: #fff;
 }
 
@@ -254,7 +250,7 @@ section{
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #ff312e;
+    color: blue;
 }
 
 .sobre-text h2{
@@ -364,7 +360,7 @@ section{
 }
 
 .sobre-text-1 span{
-    color: #ff312e;
+    color: blue;
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
@@ -477,4 +473,61 @@ footer{
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
+}
+
+/*Responsivo*/
+
+@media (min-width: 390px) and (max-width: 844px) {
+    .container{
+        width: 640px;
+    }
+    
+.home{
+    display: none;
+}
+.racing{
+    margin: 0 auto;
+    float: left;
+}
+.sobre-text{
+    width: 100%;
+    margin-left: 127px;
+}
+
+.sobre-img{
+    width: 100px;
+}
+
+.parts-container{
+    width: 100%;
+ }
+ .blog-container{
+    width: 100%;
+ }
+ .sobre-text-1{
+   
+ }
+ .sobre-text-1 h2{
+    font-size: 35px;
+ }
+ .sobre-text{
+    text-align: center;
+ }
+ footer{
+    width: 640px;
+ }
+ .footer-card{
+    display: block;
+ }
+ .header{
+    display: none;
+ }
+ .footer-container{
+    margin-left: 100px;
+ }
+ .social{
+    display: flex;
+    justify-content: left;
+ }
+
 }
