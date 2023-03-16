@@ -462,4 +462,19 @@ footer{
     margin-bottom: 10px;
 }
 
-.foo
+.footer-card a{
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.direct{
+    background-color: blue;
+    color: #fff;
+}
+
+.direct p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
