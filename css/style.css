@@ -487,11 +487,23 @@ footer{
 }
 .racing{
     margin: 0 auto;
-    float: left;
+    
 }
 .sobre-text{
-    width: 100%;
-    margin-left: 127px;
+    font-size: 16px;
+    
+}
+
+.card{
+    display: flex;
+    align-content: ;
+}
+
+.sobre-text span{
+    font-size: 16px; 
+}
+.sobre-text h2{
+    font-size: 16px; 
 }
 
 .sobre-img{
@@ -511,7 +523,7 @@ footer{
     font-size: 35px;
  }
  .sobre-text{
-    text-align: center;
+    font-size: 16px;
  }
  footer{
     width: 640px;
@@ -526,8 +538,15 @@ footer{
     margin-left: 100px;
  }
  .social{
-    display: flex;
-    justify-content: left;
+   display: flex;
+   margin-left: -58px;
+ }
+ .sobre-text-1 span{
+    font-size: 30px;
+ }
+
+ .sobre-text-1 h2{
+    font-size: 30px;
  }
 
 }
